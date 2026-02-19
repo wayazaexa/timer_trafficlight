@@ -1,6 +1,5 @@
 #include <avr/io.h>
 #include <avr/interrupt.h>
-#include <stdbool.h>
 #include "millis.h"
 
 #define BIT_SET(a, b) (a |= (1U << b))
